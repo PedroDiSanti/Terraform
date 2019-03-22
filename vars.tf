@@ -1,9 +1,9 @@
 variable "AWS_ACCESS_KEY" {
-  default = "AKIAJ3PIR6Q5RJSTQ3ZQ"
+  default = ""
 }
 
 variable "AWS_SECRET_KEY" {
-  default = "4j5DpBA4+kwvW/nFQJAucA0hyDLk0keyjH5EYkyi"
+  default = ""
 }
 
 variable "AWS_REGION" {
@@ -18,11 +18,11 @@ variable "AMIS" {
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "/home/primepass/Documentos/Projetos/terraform/mykey"
+  default = ""
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "/home/primepass/Documentos/Projetos/terraform/mykey.pub"
+  default = ""
 }
 
 variable "INSTANCE_USERNAME" {
