@@ -7,13 +7,13 @@ variable "AWS_SECRET_KEY" {
 }
 
 variable "AWS_REGION" {
-  default = "sa-east-1"
+  default = ""
 }
 
 variable "AMIS" {
   type = "map"
   default = {
-    sa-east-1 = "ami-0f1253070285f5e5d"
+    #sa-east-1 = ""
   }
 }
 
@@ -26,5 +26,5 @@ variable "PATH_TO_PUBLIC_KEY" {
 }
 
 variable "INSTANCE_USERNAME" {
-  default = "ubuntu"
+  default = ""
 }
